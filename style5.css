@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  background-image: url(img5/fondoooo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+a:hover {
+  background-color: #453f57;
+  border-bottom: solid 2px #3e1aac;
+}
+
+.img-logo {
+width: 100px;
+margin-bottom: 12px;
+
+}
+.contact-form {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  color: #F0885B;
+  margin-top: 80px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  width: 4rem;
+  padding: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #ffffff5c;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff00;
+  color: #F0885B;
+  transition: background-color 0.5s ease;
+}
+
+button[type="submit"]:hover{
+  background-color: rgb(175, 12, 251);
+  border: 1px solid rgb(175, 12, 251);
+  color: white;
+}
+
+footer {
+  background-color: #03001c;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  border-radius: 10px;
+  margin-bottom: 2px;
+}

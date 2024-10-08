@@ -1,0 +1,405 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+body{
+  margin: 0;
+  background-color: black !important;
+}
+  
+  header {
+    color: white;
+    padding: 1px;
+    background-color:#301e67;
+    border: 10px solid black;
+   
+    
+  }
+
+  .edicion{
+    height: 800px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+.subT{
+  font-size: 40px;
+
+}
+
+  
+a {
+    transition: 0.5s ease;
+} 
+
+  
+.img-logo {
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+
+.padre{
+  background-color: black;
+  color: white;
+  padding: 9rem;
+}
+
+@media (max-width: 1430px){
+    .padre{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+.w-6{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.tarjetas{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.782);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 30px 2.5px;
+  color: #89CFF0;
+  transition: transform 1s ease-out;
+  height: 260px;
+  width: 262px;
+  align-items: center;
+}
+
+.tarjetas :hover{
+    transform: scale(1.01);
+    color: black;
+}
+
+.opt{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 0.5rem;
+}
+
+
+/* ------------------VENTA---------------------------- */
+
+.contPrim{
+  width: 100%;
+  background-image: url(img4/fonodN.jpg);
+  width: 100%;
+  height: 67rem;
+  padding-left: 12rem;
+    padding-top: 19rem;
+    object-fit: cover;
+    background-position: center;
+}
+
+.edit{
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  
+}
+
+.capa{
+    color: white;
+    background-color: #000000cf;
+    width: 431px;
+    padding: 1rem;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.botonxbox{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  border: solid 2px #12e812;
+  display: flex;
+  justify-content: center;
+}
+
+.botonxbox:hover{
+  background-color: #12e812;
+  color: black;  
+}
+
+.v{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.v1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.v2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.colorrr{
+  background-color: #313131;
+}
+
+.tamañocard{
+  width: 300px;
+}
+
+/* --- */
+
+.tamañocard1{
+  width: 260px;
+}
+
+.contPrimp{
+  width: 100%;
+  background-image: url(img4/god-of-war-raganok-clean-keyart-01-en-10mar22.webp);
+  width: 100%;
+  height: 67rem;
+  padding-left: 12rem;
+    padding-top: 19rem;
+    object-fit: cover;
+    background-position: center;
+}
+
+.botonxbox1{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  border: solid 2px #1b99ec;
+  display: flex;
+  justify-content: center;
+}
+
+.botonxbox1:hover{
+  background-color: #1b99ec;
+  color: black;
+}
+
+
+
+/*  */
+.contPrimp3{
+  width: 100%;
+  background-image: url(img4/super-mario-3d-world-bowsers-fury-image-3.jpg);
+  width: 100%;
+  height: 67rem;
+  padding-left: 12rem;
+    padding-top: 19rem;
+    object-fit: cover;
+    background-position: center;
+}
+
+.botonxbox3{
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  border: solid 2px red;
+  display: flex;
+  justify-content: center;
+}
+
+.botonxbox3:hover{
+  background-color: red;
+  color: white;
+}
+
+h4{
+  text-align: center;
+}
+
+.tamañocard4{
+  width: 300PX;
+    height: 305px;
+    object-fit: cover;
+}
+
+.tamañocard6{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* -------------------------------------------- */
+
+footer{
+  background-color: rgb(59, 57, 57) ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+    
+  
+  
+  footer p {
+    border-radius: 10px;
+    margin-bottom: 2px;
+  }
+
+  /* --------------------------------------- */
+
+
+  .card {
+    width: 195px;
+    height: 285px;
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+    width: 19rem;
+    height: 19rem;
+  }
+  
+  .img {
+    height: 56%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    background-position: center;
+    padding: 5px;
+  }
+  
+  .textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+  }
+  
+  .textBox > .text {
+    font-weight: bold;
+  }
+  
+  .textBox > .head {
+    font-size: 20px;
+  }
+  
+  .textBox > .price {
+    font-size: 17px;
+  }
+  
+  .textBox > span {
+    font-size: 12px;
+    color: lightgrey;
+  }
+  
+  .card:hover > .textBox {
+    opacity: 1;
+  }
+  
+  .card:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* .card:hover {
+    transform: scale(1.04) rotate(-1deg);
+  }  */
+  
+/* --------boton--------- */
+.carro{
+  width: 5rem;
+  padding: 5px;
+  border-radius: 1rem;
+  border: 2px solid darkgray;
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  color: black;
+  }
+
+.carro:hover{
+  transition: .4s;
+  border: 2px solid white;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  }
+  .carro1{
+    width: 5rem;
+    padding: 5px;
+    border-radius: 1rem;
+    border: 2px solid darkgray;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    color: black;
+    
+    }
+  
+  .carro1:hover{
+    transition: .4s;
+    border: 2px solid white;
+    background-color: black;
+    cursor: pointer;
+    color:  white;
+    }
+    .carro2{
+      width: 5rem;
+      padding: 5px;
+      border-radius: 1rem;
+      border: 2px solid darkgray;
+      display: flex;
+      justify-content: center;
+      height: 44px;
+      color: black;
+      }
+    
+    .carro2:hover{
+      transition: .4s;
+      border: 2px solid white;
+      background-color: black;
+      cursor: pointer;
+      color: white;
+      }
+
